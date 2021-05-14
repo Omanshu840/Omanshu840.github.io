@@ -1,28 +1,28 @@
 const pageLinks = [
   {
     id: 1,
-    text: "Home",
-    url: "/",
+    text: "Education",
+    url: "#education",
   },
   {
     id: 2,
-    text: "About",
-    url: "/about",
+    text: "Activities",
+    url: "#activities",
   },
   {
     id: 3,
     text: "Projects",
-    url: "/projects",
+    url: "#projects",
   },
   {
     id: 4,
-    text: "Blog",
-    url: "/blog",
+    text: "Skills",
+    url: "#skills",
   },
   {
     id: 5,
     text: "Contact",
-    url: "/contact",
+    url: "#contact",
   },
 ]
 

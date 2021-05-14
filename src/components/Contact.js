@@ -40,7 +40,7 @@ export default function Contact() {
     }
 
     return (
-        <div className="contact section-odd">
+        <div id="contact" className="contact section-odd">
             <Container>
                 <div className="card py-5 my-5 px-3 px-md-5 mx-md-5">
                     <h1 className="mb-3">Get in Touch</h1>

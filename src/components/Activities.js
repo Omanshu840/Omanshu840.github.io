@@ -7,7 +7,7 @@ class Activities extends React.Component {
 
     render() {
         return (
-            <div className="section-odd activities">
+            <div id="activities" className="section-odd activities">
                 <Fade top>
                     <div className="section-title">
                         <h2>Activities</h2>

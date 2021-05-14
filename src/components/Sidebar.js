@@ -1,6 +1,5 @@
 import React from "react"
 import { FaTimes } from "react-icons/fa"
-import { Link } from "react-router-dom"
 import pageLinks from '../constants/pageLinks'
 import socialLinks from '../constants/socialLinks'
 
@@ -15,7 +14,7 @@ const Sidebar = ({ isOpen, toggleSidebar }) => {
             {pageLinks.map(link => {
               return (
                   <li key={link.id}>
-                    <Link to={link.url} onClick={toggleSidebar}>{link.text}</Link>
+                    <a href={link.url} onClick={toggleSidebar}>{link.text}</a>
                   </li>
               )
             })

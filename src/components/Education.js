@@ -1,5 +1,4 @@
 import React from "react"
-import { FaAngleDoubleRight } from "react-icons/fa"
 import Fade from 'react-reveal/Fade';
 
 const data = [
@@ -36,7 +35,7 @@ const Education = () => {
     const { institute, degree, grade, time} = data[value]
 
     return (
-        <div className="section-even education">
+        <div id="education" className="section-even education">
             <div className="section-title">
                 <Fade top>
                     <h2>Education</h2>

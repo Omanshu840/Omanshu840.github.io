@@ -9,7 +9,7 @@ class Projects extends React.Component {
     render() {
 
         return (
-            <div className="section-even projects">
+            <div id="projects" className="section-even projects">
                 <div className="section-title">
                     <h2>Projects</h2>
                     <div className="underline"></div>

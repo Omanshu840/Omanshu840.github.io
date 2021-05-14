@@ -11,7 +11,7 @@ class Skills extends React.Component {
         }
 
         return (
-            <div className="section-odd skills">
+            <div id="skills" className="section-odd skills">
                 <Fade top>
                     <div className="section-title">
                         <h2>Skills</h2>

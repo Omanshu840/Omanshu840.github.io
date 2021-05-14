@@ -2,7 +2,6 @@ import React from "react"
 import { Container} from "reactstrap";
 import socialLinks from '../constants/socialLinks'
 import Fade from 'react-reveal/Fade';
-import { Link } from "react-router-dom";
 
 const Hero = ({toggleDarkMode, darkMode}) => {
 
@@ -28,11 +27,11 @@ const Hero = ({toggleDarkMode, darkMode}) => {
                         <div className="underline"></div>
                         <h1>Omanshu Mahawar</h1>
                         <h5>3rd Year CSE Under Graduate</h5>
-                        <Link to="/contact">
+                        <a href="#contact">
                             <button className="btn">
                                 Contact Me
                             </button>
-                        </Link>
+                        </a>
                         
                         <ul className="social-links">
                             { socialLinks.map(link => {
