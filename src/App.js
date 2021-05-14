@@ -29,7 +29,7 @@ const App = () => {
         <Navbar toggleSidebar={toggleSidebar} toggleDarkMode={toggleDarkMode} />
         <Sidebar isOpen={isOpen} toggleSidebar={toggleSidebar} />
         <Switch>
-          <Route exact path="/Portfolio">
+          <Route exact path="/">
             <Hero toggleDarkMode={toggleDarkMode} darkMode={darkMode}/>
             <Education/>
             <Activities />
@@ -37,11 +37,11 @@ const App = () => {
             <Skills />
           </Route>
 
-          <Route exact path="/Portfolio/projects/">
+          <Route exact path="/projects">
             <Projects limit={100}/>
           </Route>
 
-          <Route exact path="/Portfolio/contact/">
+          <Route exact path="/contact">
             <Contact/>
           </Route>
 
@@ -49,8 +49,8 @@ const App = () => {
             <PageNotFound/>  
           </Route>
         </Switch>
+        <Footer />
       </BrowserRouter>
-      <Footer />
     </div>
   );
 }

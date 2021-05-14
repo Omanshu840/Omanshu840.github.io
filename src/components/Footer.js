@@ -1,4 +1,5 @@
 import React from "react"
+import { Link } from "react-router-dom";
 import { Container, Row } from "reactstrap";
 import pageLinks from '../constants/pageLinks'
 import socialLinks from '../constants/socialLinks'
@@ -16,7 +17,7 @@ class Footer extends React.Component {
                                 {pageLinks.map(link => {
                                 return (
                                     <li key={link.id}>
-                                        <a href={link.url}>{link.text}</a>
+                                        <Link to={link.url}>{link.text}</Link>
                                     </li>
                                 )
                                 })
