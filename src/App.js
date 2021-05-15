@@ -28,7 +28,7 @@ const App = () => {
       <Hero toggleDarkMode={toggleDarkMode} darkMode={darkMode}/>
       <Education/>
       <Activities />
-      <Projects limit={100}/>
+      <Projects/>
       <Skills />
       <Contact/>
       <Footer />
