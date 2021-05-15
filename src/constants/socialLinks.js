@@ -9,7 +9,7 @@ const socialLinks = [
   {
     id: 1,
     icon: <FaEnvelope className="social-icon"></FaEnvelope>,
-    url: "/",
+    url: "mailto:omanshumahawar1234@gmail.com",
   },
   {
     id: 2,
@@ -24,7 +24,7 @@ const socialLinks = [
   {
     id: 4,
     icon: <FaPhone className="social-icon"></FaPhone>,
-    url: "/",
+    url: "tel:918209104660",
   },
   {
     id: 5,

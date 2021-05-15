@@ -26,9 +26,9 @@ class Activities extends React.Component {
                                         <Fade top>
                                             <div className="timeline-content">
                                                 <div className="date">{item.date}</div>
-                                                <a href={item.companyLink}><img src={item.imgLink} className="act-img" alt={item.id}/></a>
+                                                <a href={item.companyLink} target="_blank" rel="noopener noreferrer"><img src={item.imgLink} className="act-img" alt={item.id}/></a>
                                                 <h3>{item.title}</h3>
-                                                <a href={item.companyLink}><h4>{item.company}</h4></a>
+                                                <a href={item.companyLink} target="_blank" rel="noopener noreferrer"><h4>{item.company}</h4></a>
                                             </div>
                                         </Fade>
                                     </div>

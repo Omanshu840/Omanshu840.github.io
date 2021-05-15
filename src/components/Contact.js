@@ -48,7 +48,7 @@ export default function Contact() {
                         { socialLinks.map(link => {
                                 return (
                                     <div key={link.id} className="px-3 contact-link">
-                                        <a href={link.url}>
+                                        <a href={link.url} target="_blank" rel="noopener noreferrer">
                                             {link.icon}
                                         </a>
                                     </div>

@@ -27,7 +27,7 @@ class Footer extends React.Component {
                             <h3 className="py-4">Contact Information</h3>
                                 { socialLinks.map(link => {
                                         return (
-                                                <a href={link.url} className="social-link">
+                                                <a href={link.url} target="_blank" rel="noopener noreferrer" className="social-link">
                                                     {link.icon}
                                                 </a>
                                         )
