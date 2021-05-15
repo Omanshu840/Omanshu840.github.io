@@ -620,6 +620,14 @@ Activities
   position: relative;
 }
 
+.activities a {
+  color: var(--seccolor-2);
+}
+
+.activities a:hover {
+  color: var(--seccolor-1);
+}
+
 .Timeline::before {
   content: '';
   background: var(--seccolor-2);
