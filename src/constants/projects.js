@@ -4,7 +4,7 @@ const projects = [
     imgLink: require('../img/project1.png'),
     title: "Resource Sharing Portal",
     description: "Resource sharing portal is a Web Application that provides a one-stop platform to the students for easy management of resources and course materials. It is a full-stack application implemented using the Django Framework.",
-    stack: ["Python", "Django", "CSS", "Bootstrap", "SQLite"],
+    stack: ["Python", "Django", "HTML", "CSS", "Bootstrap", "SQLite"],
     githubLink: "https://github.com/Omanshu840/Resource-Sharing-Platform",
     Link: "https://omanshu840.pythonanywhere.com/",
   },

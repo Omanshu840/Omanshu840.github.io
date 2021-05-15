@@ -1,49 +1,14 @@
 import React, { useEffect, useState } from "react"
 import { FaGithubSquare, FaShareSquare } from "react-icons/fa"
 import project_list from "../constants/projects"
-import Fade from 'react-reveal/Fade';
-import {Card, CardImg, CardText, CardBody, CardTitle, CardSubtitle, Button} from 'reactstrap';
+import {Card, CardImg, CardText, CardBody, CardTitle} from 'reactstrap';
 import Row from "reactstrap/lib/Row";
 import DropdownToggle from "reactstrap/lib/DropdownToggle";
 import DropdownMenu from "reactstrap/lib/DropdownMenu";
 import DropdownItem from "reactstrap/lib/DropdownItem";
 import Dropdown from "reactstrap/lib/Dropdown";
 import { AiOutlineCloseCircle } from "react-icons/ai";
-import Zoom from 'react-reveal/Zoom';
 
-
-const ProjectList = ({projects}) => {
-    return (
-        <Row className="justify-content-center">
-            {projects.map((item, index) => {
-                return (
-                    <div className="col-12 col-sm-6 col-lg-4 d-flex">
-                        <Card className="my-3">
-                            <CardImg top width="100%" src={item.imgLink} alt="Card image cap" />
-                            <CardBody className="project-info">
-                                <CardTitle tag="h5" className="mt-3">{item.title}</CardTitle>
-                                <CardText className="project-desc">{item.description}</CardText>
-                                <div className="project-stack">
-                                    {item.stack.map(tool => {
-                                        return <span className="stack-item">{tool}</span>
-                                    })}
-                                </div>
-                                <div className="project-links">
-                                    <a href={item.githubLink}>
-                                        <FaGithubSquare className="project-icon" />
-                                    </a>
-                                    <a href={item.Link}>
-                                        <FaShareSquare className="project-icon" />
-                                    </a>
-                                </div>
-                            </CardBody>
-                        </Card>
-                    </div>
-                )
-            })}
-        </Row>
-    )
-}
 
 const Projects = () => {
 
@@ -52,7 +17,6 @@ const Projects = () => {
 
     const [filters, setFilters] = useState([])
     const [projects, setProjects] = useState(project_list)
-    // const [loaded, setLoaded] = useState(false)
 
     const [techs, setTechs] = useState([]) 
 
@@ -72,27 +36,29 @@ const Projects = () => {
     }, [])
 
     const UpdateProjects = () => {
+      
+        var t_projects = []
 
-        // setLoaded(false)
-        console.log("reaching here")
-        const t_projects = []
-
-        for(var i in project_list) {
-            var f = 1
-            for(var j in filters){
-                if(!((project_list[i].stack).includes(filters[j]))) {
-                    f = 0
-                    break
+        if(filters.length===0) {
+            t_projects = project_list;
+        }
+        else {
+            for(var i in project_list) {
+                var f = 0
+                for(var j in filters){
+                    if((project_list[i].stack).includes(filters[j])) {
+                        f = 1
+                        break
+                    }
                 }
-            }
 
-            if(f) {
-                t_projects.push(project_list[i])
+                if(f) {
+                    t_projects.push(project_list[i])
+                }
             }
         }
 
         setProjects(t_projects)
-        // setLoaded(true)
     }
 
     const AddFilter = (filter) => {
@@ -113,14 +79,6 @@ const Projects = () => {
         setFilters(t_filter)
         UpdateProjects()
     }
-
-    
-
-    // if(!loaded) {
-    //     return (
-    //         <div>Loading</div>
-    //     )
-    // }
 
     return (
         <div id="projects" className="section-even projects">
@@ -164,46 +122,34 @@ const Projects = () => {
                         </Dropdown>
                     </div>
                 </Row>
-                <ProjectList projects={projects} />
-                {/* {
-                    projects.map((item, index) => {
-                        if(index<= this.props.limit) {
-                            return(
-                                <div className="project">
-                                    <img className="project-img" src={item.imgLink} alt="img" />
-
-                                    <Fade top>
-                                        <div className="project-info">
-                                            <span className="project-number">0{index + 1}.</span>
-                                            <h3>{item.title}</h3>
-                                            <p className="project-desc">
-                                                {item.description}
-                                            </p>
-                                            <div className="project-stack">
-                                                {item.stack.map(tool => {
-                                                    return <span className="stack-item">{tool}</span>
-                                                })}
-                                            </div>
-                                            <div className="project-links">
+                <Row className="justify-content-center">
+                    {projects.map((item, index) => {
+                        return (
+                            <div className="col-12 col-sm-6 col-lg-4 d-flex">
+                                <Card className="my-3">
+                                    <CardImg top width="100%" src={item.imgLink} alt="Card image cap" />
+                                    <CardBody className="project-info">
+                                        <CardTitle tag="h5" className="mt-3">{item.title}</CardTitle>
+                                        <CardText className="project-desc">{item.description}</CardText>
+                                        <div className="project-stack">
+                                            {item.stack.map(tool => {
+                                                return <span className="stack-item" onClick={() => {AddFilter(tool)}}>{tool}</span>
+                                            })}
+                                        </div>
+                                        <div className="project-links">
                                             <a href={item.githubLink}>
                                                 <FaGithubSquare className="project-icon" />
                                             </a>
                                             <a href={item.Link}>
                                                 <FaShareSquare className="project-icon" />
                                             </a>
-                                            </div>
                                         </div>
-                                    </Fade>
-                                </div>
-                            )
-                        }
-                        else {
-                            return (
-                                <div></div>
-                            )
-                        }
-                    })
-                } */}
+                                    </CardBody>
+                                </Card>
+                            </div>
+                        )
+                    })}
+                </Row>
             </div>
         </div>
         )
