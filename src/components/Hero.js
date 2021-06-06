@@ -26,7 +26,7 @@ const Hero = ({toggleDarkMode, darkMode}) => {
                     <Fade top>
                         <div className="underline"></div>
                         <h1>Omanshu Mahawar</h1>
-                        <h5>3rd Year CSE Under Graduate</h5>
+                        <h5>Final Year CSE Under Graduate</h5>
                         <a href="#contact">
                             <button className="btn">
                                 Contact Me

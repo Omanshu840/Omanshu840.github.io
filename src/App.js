@@ -5,9 +5,9 @@ import Hero from './components/Hero'
 import Education from './components/Education'
 import Projects from './components/Projects'
 import Skills from './components/Skills'
-import Activities from './components/Activities'
 import Footer from './components/Footer'
 import Contact from './components/Contact';
+import Experience from './components/Experience';
 
 const App = () => {
 
@@ -27,7 +27,7 @@ const App = () => {
       <Sidebar isOpen={isOpen} toggleSidebar={toggleSidebar} />
       <Hero toggleDarkMode={toggleDarkMode} darkMode={darkMode}/>
       <Education/>
-      <Activities />
+      <Experience/>
       <Projects/>
       <Skills />
       <Contact/>
