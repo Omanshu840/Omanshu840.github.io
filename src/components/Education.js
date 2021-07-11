@@ -1,4 +1,5 @@
 import React from "react"
+import { FaAngleDoubleRight } from "react-icons/fa";
 import Fade from 'react-reveal/Fade';
 
 const data = [
@@ -6,7 +7,7 @@ const data = [
       id: 1,
       institute: "National Institute of Technology Karnataka, Surathkal",
       degree: "B.Tech Computer Science Engineering",
-      grade: "CGPA 8.87/10.0",
+      grade: "CGPA 8.74/10.0",
       time: "July 2018 – May 2022",
       tab: "B.Tech"
     },
@@ -63,10 +64,10 @@ const Education = () => {
                             <h3>{degree}</h3>
                             <h4>{institute}</h4>
                             <p className="edu-date">{time}</p>
-                            {/* <div className="edu-desc">
+                            <div className="edu-desc">
                                 <FaAngleDoubleRight className="edu-icon"></FaAngleDoubleRight>
                                 <p>{grade}</p>
-                            </div> */}
+                            </div>
                     </div>
                 </Fade>
             </div>
