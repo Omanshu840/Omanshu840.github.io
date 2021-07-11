@@ -130,7 +130,7 @@ const Projects = () => {
                                     <CardImg top width="100%" src={item.imgLink} alt="Card image cap" />
                                     <CardBody className="project-info">
                                         <CardTitle tag="h5" className="mt-3">{item.title}</CardTitle>
-                                        <CardText className="project-desc">{item.description}</CardText>
+                                        <CardText className="project-desc d-none d-md-block">{item.description}</CardText>
                                         <div className="project-stack">
                                             {item.stack.map(tool => {
                                                 return <span className="stack-item" onClick={() => {AddFilter(tool)}}>{tool}</span>
