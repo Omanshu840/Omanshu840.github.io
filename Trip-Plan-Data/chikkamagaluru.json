@@ -152,16 +152,70 @@
           "title": "The Blossom Resort",
           "link": "https://www.agoda.com/en-gb/the-blossom-resort/hotel/hassan-in.html?finalPriceView=1&isShowMobileAppPrice=false&cid=1833981&numberOfBedrooms=&familyMode=false&adults=3&children=0&rooms=1&maxRooms=0&checkIn=2023-08-18&isCalendarCallout=false&childAges=&numberOfGuest=0&missingChildAges=false&travellerType=3&showReviewSubmissionEntry=false&currencyCode=INR&isFreeOccSearch=false&isCityHaveAsq=false&tspTypes=4&los=3&searchrequestid=edc479db-df93-42d2-826e-549b635efa7f",
           "subtitle": "Room Type: Hill View Room or Terrace King"
+        },
+        {
+          "title": "Treebo Trend 3C Comforts",
+          "link": "https://www.agoda.com/en-gb/3c-comforts/hotel/chikmagalur-in.html?finalPriceView=1&isShowMobileAppPrice=false&cid=1833981&numberOfBedrooms=&familyMode=false&adults=3&children=0&rooms=1&maxRooms=0&checkIn=2023-08-18&isCalendarCallout=false&childAges=&numberOfGuest=0&missingChildAges=false&travellerType=3&showReviewSubmissionEntry=false&currencyCode=INR&isFreeOccSearch=false&isCityHaveAsq=false&tspTypes=8&los=3&searchrequestid=edc479db-df93-42d2-826e-549b635efa7f",
+          "subtitle": "Room Type: Deluxe Double Room"
+        },
+        {
+          "title": "Mountain Valley Homestay",
+          "link": "https://www.makemytrip.com/hotels/hotel-details/?checkin=08182023&checkout=08212023&locusId=CTXZS&locusType=city&city=CTXZS&country=IN&searchText=Mountain%20Valley%20Homestay%20%7C%20Rooms%20%26%20Caretaker&roomStayQualifier=2e0e&_uCurrency=INR&reference=hotel&hotelId=20141027164736320&rf=directSearch&topHtlId=20141027164736320&homeStay=true&type=hotel",
+          "subtitle": "Room Type: Agoda says no rooms available. Check if it is available elsewhere"
+        },
+        {
+          "title": "The Spectrum Resort",
+          "link": "https://www.agoda.com/en-gb/the-spectrum-homestay/hotel/hassan-in.html?locale=en-gb&ckuid=3e0b1a00-6e0c-451e-93c5-16b013b6fc0d&prid=0&currency=INR&correlationId=d1a9f2a9-da5d-422d-a9d2-2f612971ba66&analyticsSessionId=-6327383331477244140&pageTypeId=7&realLanguageId=16&languageId=1&origin=IN&cid=1731113&userId=3e0b1a00-6e0c-451e-93c5-16b013b6fc0d&whitelabelid=1&loginLvl=0&storefrontId=3&currencyId=27&currencyCode=INR&htmlLanguage=en-gb&cultureInfoName=en-gb&machineName=sg-pc-6g-acm-web-user-68d6478c76-87rkq&trafficGroupId=7&sessionId=it4sm4taoeea2djnkn3gh0yy&trafficSubGroupId=200&aid=102968&useFullPageLogin=true&cttp=4&isRealUser=true&mode=production&browserFamily=Chrome&checkIn=2023-08-18&checkOut=2023-08-21&rooms=1&adults=3&childs=0&priceCur=INR&los=3&textToSearch=The%20Spectrum%20Resort%2C%20Chikmagalur&productType=-1&travellerType=1&familyMode=off",
+          "subtitle": "Room Type: Deluxe Room with Balcony"
+        },
+        {
+          "title": "Memories of Malnad",
+          "link": "https://www.agoda.com/en-gb/memories-of-malnad/hotel/all/chikmagalur-in.html?finalPriceView=1&isShowMobileAppPrice=false&cid=1833981&numberOfBedrooms=&familyMode=false&adults=3&children=0&rooms=1&maxRooms=0&checkIn=2023-08-18&isCalendarCallout=false&childAges=&numberOfGuest=0&missingChildAges=false&travellerType=3&showReviewSubmissionEntry=false&currencyCode=INR&isFreeOccSearch=false&isCityHaveAsq=false&los=3&searchrequestid=edc479db-df93-42d2-826e-549b635efa7f",
+          "subtitle": "Room Type: Family Room with Terrace"
         }
       ]
     },
     {
       "title": "Places to Eat",
-      "data": []
+      "data": [
+        {
+          "title": "World of Coffee Experience Cafe",
+          "link": "https://www.google.com/maps/place/World+of+Coffee+Experience+Cafe/@13.3161679,75.7743837,17z/data=!3m1!4b1!4m6!3m5!1s0x3bbad7726c994c2f:0xd04cd26aaaedf778!8m2!3d13.3161679!4d75.7743837!16s%2Fg%2F11h4zqd4qg?entry=ttu"
+        },
+        {
+          "title": "Café Agape",
+          "link": "https://www.google.com/maps/place/Caf%C3%A9+Agape/@13.3313553,75.7731742,17z/data=!3m1!4b1!4m6!3m5!1s0x3bbad9da61f163ab:0x449548961ed922e4!8m2!3d13.3313553!4d75.7731742!16s%2Fg%2F11hcn9pdr7?entry=ttu"
+        },
+        {
+          "title": "The Kalyani Bar",
+          "link": "https://www.google.com/maps/place/The+Kalyani+Bar/@13.2581226,75.7169724,17z/data=!3m1!4b1!4m6!3m5!1s0x3bbad70efb9a99bf:0x536a85309e02fd49!8m2!3d13.2581226!4d75.7169724!16s%2Fg%2F11pgh6vmyn?entry=ttu"
+        },
+        {
+          "title": "Siri Coffee Bar",
+          "link": "https://www.google.com/maps/place/Siri+Coffee+Bar+%26+Khushi+Homestay,Chikmagaluru/@13.3400269,75.7683831,17z/data=!3m1!4b1!4m6!3m5!1s0x3bbad9c92de3d183:0x96435c1b1a90dedd!8m2!3d13.3400269!4d75.7683831!16s%2Fg%2F11fx8q8r7f?entry=ttu"
+        }
+      ]
     },
     {
       "title": "2 Wheeler Rentals",
-      "data": []
+      "data": [
+        {
+          "title": "Royal Brothers",
+          "subtitle": "090195 95595"
+        },
+        {
+          "title": "Ridez Bike Rental",
+          "subtitle": "093539 42371"
+        },
+        {
+          "title": "Bright Bike Rental",
+          "subtitle": "099721 10099"
+        },
+        {
+          "title": "Rainbow Bike Rentals",
+          "subtitle": "072049 37466"
+        }
+      ]
     }
   ]
 }
