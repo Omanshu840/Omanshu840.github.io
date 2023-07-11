@@ -144,24 +144,9 @@
       "title": "Hotel Options",
       "data": [
         {
-          "title": "Honeydewwz Exoticaa",
-          "link": "https://www.agoda.com/en-gb/honeydewwz-exoticaa/hotel/chikmagalur-in.html?finalPriceView=1&isShowMobileAppPrice=false&cid=1833981&numberOfBedrooms=&familyMode=false&adults=3&children=0&rooms=1&maxRooms=0&checkIn=2023-08-18&isCalendarCallout=false&childAges=&numberOfGuest=0&missingChildAges=false&travellerType=3&showReviewSubmissionEntry=false&currencyCode=INR&isFreeOccSearch=false&isCityHaveAsq=false&tspTypes=1&los=3&searchrequestid=edc479db-df93-42d2-826e-549b635efa7f",
-          "subtitle": "Room Type: Junior Suite with Mountain View"
-        },
-        {
-          "title": "The Blossom Resort",
-          "link": "https://www.agoda.com/en-gb/the-blossom-resort/hotel/hassan-in.html?finalPriceView=1&isShowMobileAppPrice=false&cid=1833981&numberOfBedrooms=&familyMode=false&adults=3&children=0&rooms=1&maxRooms=0&checkIn=2023-08-18&isCalendarCallout=false&childAges=&numberOfGuest=0&missingChildAges=false&travellerType=3&showReviewSubmissionEntry=false&currencyCode=INR&isFreeOccSearch=false&isCityHaveAsq=false&tspTypes=4&los=3&searchrequestid=edc479db-df93-42d2-826e-549b635efa7f",
-          "subtitle": "Room Type: Hill View Room or Terrace King"
-        },
-        {
-          "title": "Treebo Trend 3C Comforts",
-          "link": "https://www.agoda.com/en-gb/3c-comforts/hotel/chikmagalur-in.html?finalPriceView=1&isShowMobileAppPrice=false&cid=1833981&numberOfBedrooms=&familyMode=false&adults=3&children=0&rooms=1&maxRooms=0&checkIn=2023-08-18&isCalendarCallout=false&childAges=&numberOfGuest=0&missingChildAges=false&travellerType=3&showReviewSubmissionEntry=false&currencyCode=INR&isFreeOccSearch=false&isCityHaveAsq=false&tspTypes=8&los=3&searchrequestid=edc479db-df93-42d2-826e-549b635efa7f",
-          "subtitle": "Room Type: Deluxe Double Room"
-        },
-        {
-          "title": "Mountain Valley Homestay",
-          "link": "https://www.makemytrip.com/hotels/hotel-details/?checkin=08182023&checkout=08212023&locusId=CTXZS&locusType=city&city=CTXZS&country=IN&searchText=Mountain%20Valley%20Homestay%20%7C%20Rooms%20%26%20Caretaker&roomStayQualifier=2e0e&_uCurrency=INR&reference=hotel&hotelId=20141027164736320&rf=directSearch&topHtlId=20141027164736320&homeStay=true&type=hotel",
-          "subtitle": "Room Type: Agoda says no rooms available. Check if it is available elsewhere"
+          "title": "The Mellows Homestay",
+          "link": "https://goo.gl/maps/DyEDz4AqonBfeauP8",
+          "subtitle": "Sunrise cottage: 36k"
         },
         {
           "title": "The Spectrum Resort",
@@ -172,6 +157,11 @@
           "title": "Memories of Malnad",
           "link": "https://www.agoda.com/en-gb/memories-of-malnad/hotel/all/chikmagalur-in.html?finalPriceView=1&isShowMobileAppPrice=false&cid=1833981&numberOfBedrooms=&familyMode=false&adults=3&children=0&rooms=1&maxRooms=0&checkIn=2023-08-18&isCalendarCallout=false&childAges=&numberOfGuest=0&missingChildAges=false&travellerType=3&showReviewSubmissionEntry=false&currencyCode=INR&isFreeOccSearch=false&isCityHaveAsq=false&los=3&searchrequestid=edc479db-df93-42d2-826e-549b635efa7f",
           "subtitle": "Room Type: Family Room with Terrace"
+        },
+        {
+          "title": "SS LUXURY COMFORTS",
+          "link": "https://www.airbnb.co.in/rooms/52918335?productId=52918335&check_in=2023-08-18&check_out=2023-08-21&guests=1&adults=4&children=0&infants=0&pets=0&source_impression_id=p3_1688994994_%2FvxhxHzjKc8NctEP",
+          "subtitle": "2 BHK apartment"
         }
       ]
     },
