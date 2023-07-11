@@ -11,7 +11,7 @@
           "time": "8:45 AM",
           "title": "Train from Bangalore to Birur",
           "subtitle": "Vishwamanav Exp (17326)",
-          "note": "08:45 AM - 12:08 AM",
+          "note": "08:45 AM - 12:08 PM",
           "price": "360"
         },
         {
@@ -25,9 +25,11 @@
           "price": "2000~"
         },
         {
+          "id": "hotel",
           "time": "2:00 PM",
+          "imgLink": "https://gos3.ibcdn.com/101dface3db711ea9c980242ac110002.jpg",
           "title": "Check in at the Hotel",
-          "note": "Hotel TBD"
+          "subtitle": "The Mellows Homestay"
         },
         {
           "time": "5:00 PM",
@@ -207,5 +209,29 @@
         }
       ]
     }
-  ]
+  ],
+  "hotelDetails": {
+      "name": "The Mellows Homestay",
+      "imgLink": "https://gos3.ibcdn.com/101dface3db711ea9c980242ac110002.jpg",
+      "roomType": "Sunrise cottage",
+      "price": "36k including breakfast & dinner",
+      "links": [
+          {
+              "title": "Google Map",
+              "link": "https://goo.gl/maps/DLQUa2VXD6kXccJ59"
+          },
+          {
+              "title": "Website",
+              "link": "http://www.themellowshomestay.com/"
+          },
+          {
+              "title": "Instagram",
+              "link": "https://instagram.com/the_mellows_homestay?igshid=YmMyMTA2M2Y=",
+          },
+          {
+              "title": "+91 81977 44478",
+              "link": "tel:+918197744478",
+          }
+      ]
+  }
 }
