@@ -189,7 +189,25 @@
       "name": "The Mellows Homestay",
       "imgLink": "https://gos3.ibcdn.com/101dface3db711ea9c980242ac110002.jpg",
       "roomType": "Sunrise cottage",
-      "price": "36k including breakfast & dinner",
+      "price": "36K",
+      "amenities": [
+          "Breakfast",
+          "Tea",
+          "Coffee",
+          "Munchies",
+          "Dinner",
+          "Campfire",
+          "Coffee Estate Walk"
+      ],
+      "rooms": [
+          "1 Bedroom with Washroom",
+          "1 Living Room",
+          "1 King Size Bed",
+          "1 Convertible Sofa Bed",
+          "Extra Mattress if needed"
+      ],
+      "checkIn": "12:00 PM",
+      "checkOut": "11:00 AM",
       "links": [
           {
               "title": "Google Map",
