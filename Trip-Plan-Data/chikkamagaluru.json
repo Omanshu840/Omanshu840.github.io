@@ -11,7 +11,9 @@
           "time": "8:45 AM",
           "title": "Train from Bangalore to Birur",
           "subtitle": "Vishwamanav Exp (17326)",
-          "note": "08:45 AM - 12:08 PM",
+          "para1": "08:45 AM - 12:08 PM",
+          "para2": "PNR: 4251545021",
+          "note": "Seat No: C1 - 45, 46, 47, 48",
           "price": "360"
         },
         {
@@ -135,7 +137,9 @@
           "time": "1:11 PM",
           "title": "Train from Birur to Bangalore",
           "subtitle": "Vishwamanav Exp (17325)",
-          "note": "13:11 - 17:45",
+          "para1": "1:11 PM - 5:45 PM",
+          "para2": "PNR: 4351545451",
+          "note": "Seat No: C1 - 45, 46, 47, 48",
           "price": "360"
         }
       ]
@@ -187,7 +191,18 @@
   ],
   "hotelDetails": {
       "name": "The Mellows Homestay",
-      "imgLink": "https://gos3.ibcdn.com/101dface3db711ea9c980242ac110002.jpg",
+      "images": [
+          "https://gos3.ibcdn.com/101dface3db711ea9c980242ac110002.jpg",
+          "https://imgcld.yatra.com/ytimages/image/upload/t_seo_Hotel_w_930_h_550_c_fill_g_auto_q_40_f_jpg/v1547093381/Hotel/Chikmagalur/00147376/1_TnPBz2.jpg",
+          "https://www.homestayadvisor.in/uploads/2/1/7/1/21711386/jupiter-home-new-ha-4_1_orig.jpeg",
+          "https://www.homestayadvisor.in/uploads/2/1/7/1/21711386/jupiter-home-new-ha-2_1_orig.jpeg",
+          "https://media-cdn.tripadvisor.com/media/photo-s/28/58/8a/68/caption.jpg",
+          "https://images.trvl-media.com/lodging/29000000/28970000/28964100/28964044/bd288ad0.jpg?impolicy=fcrop&w=1200&h=800&p=1&q=medium",
+          "https://www.homestayadvisor.in/uploads/2/1/7/1/21711386/jupiter-home-new-ha-7_1.jpg",
+          "https://www.holidaymonk.com/wp-content/uploads/2017/04/1114_The-Mellows-Homestay-9.jpg",
+          "https://www.homestayadvisor.in/uploads/2/1/7/1/21711386/jupiter-home-new-ha-20_1_orig.jpeg",
+          "https://malnadstays.com/wp-content/uploads/2023/06/Rockwall-homestay-004.jpg"
+      ],
       "roomType": "Sunrise cottage",
       "price": "36K",
       "amenities": [
