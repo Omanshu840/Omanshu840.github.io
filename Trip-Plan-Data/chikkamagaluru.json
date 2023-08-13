@@ -63,11 +63,13 @@
         {
           "time": "10:00 AM",
           "title": "Baba Budangiri Peak",
+          "link": "https://www.google.com/maps/place/Baba+Budan+giri/@13.4228854,75.7600879,15z/data=!4m16!1m9!3m8!1s0x3bbaded041b3796b:0x4c3709e3b1fa2b57!2sBaba+Budan+giri!8m2!3d13.422865!4d75.7703876!9m1!1b1!16zL20vMDZ6NW1k!3m5!1s0x3bbaded041b3796b:0x4c3709e3b1fa2b57!8m2!3d13.422865!4d75.7703876!16zL20vMDZ6NW1k?entry=ttu",
           "imgLink": "https://t0.gstatic.com/licensed-image?q=tbn:ANd9GcQIHtFJjeNWzkY2IMQpy99I0_Ii3i3_PF5dw-GXEfoxnN7XBEbAnjMIaSiKH7JFP25W"
         },
         {
           "time": "12 PM",
           "title": "Manikya Dhara Falls",
+          "link": "https://www.google.com/maps/place/Manikya+Dhara+Falls/@13.4220781,75.7674818,17z/data=!3m1!4b1!4m6!3m5!1s0x3bbadf7b8be26caf:0x4137865607d0aa08!8m2!3d13.4220729!4d75.7700567!16s%2Fm%2F02q1s1l?entry=ttu",
           "imgLink": "https://thesunsetvalley.com/img/9.jpeg"
         },
         {
@@ -77,6 +79,7 @@
         {
           "time": "2:00 PM",
           "title": "Jhari Waterfalls",
+          "link": "https://www.google.com/maps/place/Jhari+Waterfall/@13.4237614,75.7384966,17z/data=!3m1!4b1!4m6!3m5!1s0x3bbadf39c515058f:0xc70d7d8399466b7d!8m2!3d13.4237562!4d75.7410715!16s%2Fg%2F1hm2229xm?entry=ttu",
           "imgLink": "https://chikmagalurinfo.com/sites/default/files/Chikmagalur_jhari_dabdabe_1.jpg"
         },
         {
@@ -103,11 +106,13 @@
         {
           "time": "2:00 PM",
           "title": "Mullayanagiri Peak",
+          "link": "https://www.google.com/maps/place/Mullayanagiri+Peak/@13.3909059,75.7110298,15z/data=!3m1!4b1!4m6!3m5!1s0x3bbad8a3b446124d:0x69e33a7e47e4081e!8m2!3d13.3908855!4d75.7213295!16s%2Fg%2F11bc5lxmvk?entry=ttu",
           "imgLink": "https://assets.traveltriangle.com/blog/wp-content/uploads/2018/07/Things-to-know-About-Mullayanagiri.jpg"
         },
         {
           "time": "4:00 PM",
           "title": "Sunset at Hirekolale lake",
+          "link": "https://www.google.com/maps/place/Hirekolale+lake/@13.3592425,75.7114721,14.21z/data=!4m6!3m5!1s0x3bbb27f2b0e30dc7:0x286ca66797514f97!8m2!3d13.3593883!4d75.7108942!16s%2Fg%2F11kk8_cm_9?entry=ttu",
           "imgLink": "https://chikmagalurtourism.org.in/images//tourist-places/hirekolale-lake-chikmagalur/hirekolale-lake-chikmagalur-tourism-holidays-closed-on-timings.jpg"
         },
         {
