@@ -6,7 +6,7 @@ const pageLinks = [
   },
   {
     id: 2,
-    text: "Activities",
+    text: "Experience",
     url: "#activities",
   },
   {

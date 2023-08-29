@@ -21,11 +21,11 @@ const socialLinks = [
     icon: <FaGithub className="social-icon"></FaGithub>,
     url: "https://github.com/Omanshu840",
   },
-  {
-    id: 4,
-    icon: <FaPhone className="social-icon"></FaPhone>,
-    url: "tel:918209104660",
-  },
+  // {
+  //   id: 4,
+  //   icon: <FaPhone className="social-icon"></FaPhone>,
+  //   url: "tel:918209104660",
+  // },
   {
     id: 5,
     icon: <FaYoutube className="social-icon"></FaYoutube>,
