@@ -26,7 +26,12 @@ const Hero = ({toggleDarkMode, darkMode}) => {
                     <Fade top>
                         <div className="underline"></div>
                         <h1>Omanshu Mahawar</h1>
-                        <h5>Software Engineer at Visa Inc</h5>
+                        <h5>Senior Software Engineer at Visa Inc</h5>
+                        {/* <div>{`I am a Senior Software Engineer with expertise in designing and developing scalable solutions in the financial technology space. Currently, at Visa Inc., I lead a team of 12 developers, driving the development of critical features for Authorize.NET, including Accepting Payments, Payment Links, and Transaction Security Settings. My leadership in modernizing the platform with a React UI and ASP.NET backend has improved both performance and user experience.
+
+In addition to technical leadership, I have extensive experience in full-stack development using technologies like React, Node.js, Vert.x, and SpringBoot, with a strong emphasis on building secure, scalable APIs. I am also familiar with DevOps, deploying applications on cloud platforms like AWS and Azure. My work has spanned both frontend and backend, ensuring end-to-end delivery of high-quality, secure applications.
+
+I also have leadership experience beyond my engineering role, having organized large-scale events such as HackVerse, a 24-hour nationwide hackathon, and led recruitment and development efforts as the Website Head at the Institution of Engineers, NITK.`}</div> */}
                         <a href="#contact">
                             <button className="btn">
                                 Contact Me

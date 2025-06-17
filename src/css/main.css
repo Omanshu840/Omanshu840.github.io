@@ -728,6 +728,29 @@ Activities
   right: 0;
 }
 
+.description-container {
+  text-align: left;
+}
+
+.description-container div {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.description-container .bullet {
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background-color: var(--seccolor-1);
+  margin-top: 13px;
+  margin-right: 8px;
+}
+
+.description-container .description {
+  flex-basis: fit-content;
+  text-align: justify;
+}
+
 @media screen and (max-width: 768px) {
   .Timeline::before {
     left: 50px;

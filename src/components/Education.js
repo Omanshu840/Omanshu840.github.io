@@ -7,7 +7,7 @@ const data = [
       id: 1,
       institute: "National Institute of Technology Karnataka, Surathkal",
       degree: "B.Tech Computer Science Engineering",
-      grade: "CGPA 8.74/10.0",
+      grade: "CGPA 8.73/10.0",
       time: "July 2018 – May 2022",
       tab: "B.Tech"
     },

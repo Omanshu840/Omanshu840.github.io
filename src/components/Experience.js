@@ -29,6 +29,14 @@ class Experience extends React.Component {
                                             <a href={item.companyLink} target="_blank" rel="noopener noreferrer"><img src={item.imgLink} className="act-img" alt={item.id}/></a>
                                             <h3>{item.title}</h3>
                                             <a href={item.companyLink} target="_blank" rel="noopener noreferrer"><h4>{item.company}</h4></a>
+                                            <div className='description-container'>
+                                                {item.highlights.map((des, dId) => (
+                                                    <div style={{display: 'flex'}}>
+                                                        <div className='bullet'></div>
+                                                        <div className='description' dangerouslySetInnerHTML={{ __html: des }} />
+                                                    </div>
+                                                ))}
+                                            </div>
                                         </div>
                                     </Fade>
                                 </div>
