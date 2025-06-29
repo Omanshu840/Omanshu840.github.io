@@ -1,0 +1,13 @@
+// Main SCSS file that imports all other style files
+
+// Import global styles
+@import './styles/global.scss';
+
+// Import layout styles
+@import './styles/layout.scss';
+
+// Import section styles
+@import './styles/sections.scss';
+
+// Import collapsible section styles
+@import './styles/collapsible-section.scss';

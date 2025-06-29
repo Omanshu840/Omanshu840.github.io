@@ -8,27 +8,27 @@ import {
 const socialLinks = [
   {
     id: 1,
-    icon: <FaEnvelope className="social-icon"></FaEnvelope>,
-    url: "mailto:omanshumahawar1234@gmail.com",
+    icon: <FaEnvelope size={20} />,
+    url: "mailto:omahawar840@gmail.com",
   },
   {
     id: 2,
-    icon: <FaLinkedin className="social-icon"></FaLinkedin>,
+    icon: <FaLinkedin size={20} />,
     url: "https://www.linkedin.com/in/omanshumahawar/",
   },
   {
     id: 3,
-    icon: <FaGithub className="social-icon"></FaGithub>,
+    icon: <FaGithub size={20} />,
     url: "https://github.com/Omanshu840",
   },
-  // {
-  //   id: 4,
-  //   icon: <FaPhone className="social-icon"></FaPhone>,
-  //   url: "tel:918209104660",
-  // },
+  {
+    id: 4,
+    icon: <FaPhone size={20}/>,
+    url: "tel:918209104660",
+  },
   {
     id: 5,
-    icon: <FaYoutube className="social-icon"></FaYoutube>,
+    icon: <FaYoutube size={20}/>,
     url: "https://www.youtube.com/channel/UCb23FIK91ZIAttasQfM_1pA",
   },
 ]
